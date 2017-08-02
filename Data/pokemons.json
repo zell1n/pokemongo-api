@@ -1,0 +1,1512 @@
+[
+    {
+        "Name": "Bulbasaur",
+        "#": 1,
+        "HP Ratio": 90,
+        "Attack Ratio": 126,
+        "Defense Ratio": 126,
+        "Min CP Cap": "838",
+        "Max CP Cap": "1072",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/f/f3/1.jpg/100px-1.jpg"
+    },
+    {
+        "Name": "Ivysaur",
+        "#": 2,
+        "HP Ratio": 120,
+        "Attack Ratio": 156,
+        "Defense Ratio": 158,
+        "Min CP Cap": "1342",
+        "Max CP Cap": "1632",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/1/15/2.jpg/100px-2.jpg"
+    },
+    {
+        "Name": "Venusaur",
+        "#": 3,
+        "HP Ratio": 160,
+        "Attack Ratio": 198,
+        "Defense Ratio": 200,
+        "Min CP Cap": "2212",
+        "Max CP Cap": "2580",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/7/79/3.jpg/100px-3.jpg"
+    },
+    {
+        "Name": "Charmander",
+        "#": 4,
+        "HP Ratio": 78,
+        "Attack Ratio": 128,
+        "Defense Ratio": 108,
+        "Min CP Cap": "734",
+        "Max CP Cap": "955",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/d/d0/4.jpg/100px-4.jpg"
+    },
+    {
+        "Name": "Charmeleon",
+        "#": 5,
+        "HP Ratio": 116,
+        "Attack Ratio": 160,
+        "Defense Ratio": 140,
+        "Min CP Cap": "1273",
+        "Max CP Cap": "1557",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/0/03/5.jpg/100px-5.jpg"
+    },
+    {
+        "Name": "Charizard",
+        "#": 6,
+        "HP Ratio": 156,
+        "Attack Ratio": 212,
+        "Defense Ratio": 182,
+        "Min CP Cap": "2231",
+        "Max CP Cap": "2602",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/1/18/6.jpg/100px-6.jpg"
+    },
+    {
+        "Name": "Squirtle",
+        "#": 7,
+        "HP Ratio": 88,
+        "Attack Ratio": 112,
+        "Defense Ratio": 142,
+        "Min CP Cap": "782",
+        "Max CP Cap": "1009",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/f/fe/7.jpg/100px-7.jpg"
+    },
+    {
+        "Name": "Wartortle",
+        "#": 8,
+        "HP Ratio": 118,
+        "Attack Ratio": 144,
+        "Defense Ratio": 176,
+        "Min CP Cap": "1296",
+        "Max CP Cap": "1583",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/8/8c/8.jpg/100px-8.jpg"
+    },
+    {
+        "Name": "Blastoise",
+        "#": 9,
+        "HP Ratio": 158,
+        "Attack Ratio": 186,
+        "Defense Ratio": 222,
+        "Min CP Cap": "2176",
+        "Max CP Cap": "2542",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/3/30/9.jpg/100px-9.jpg"
+    },
+    {
+        "Name": "Caterpie",
+        "#": 10,
+        "HP Ratio": 90,
+        "Attack Ratio": 62,
+        "Defense Ratio": 66,
+        "Min CP Cap": "298",
+        "Max CP Cap": "444",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/a/ae/10.jpg/100px-10.jpg"
+    },
+    {
+        "Name": "Metapod",
+        "#": 11,
+        "HP Ratio": 100,
+        "Attack Ratio": 56,
+        "Defense Ratio": 86,
+        "Min CP Cap": "324",
+        "Max CP Cap": "478",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/6/62/11.jpg/100px-11.jpg"
+    },
+    {
+        "Name": "Butterfree",
+        "#": 12,
+        "HP Ratio": 120,
+        "Attack Ratio": 144,
+        "Defense Ratio": 144,
+        "Min CP Cap": "1182",
+        "Max CP Cap": "1455",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/8/8d/12.jpg/100px-12.jpg"
+    },
+    {
+        "Name": "Weedle",
+        "#": 13,
+        "HP Ratio": 80,
+        "Attack Ratio": 68,
+        "Defense Ratio": 64,
+        "Min CP Cap": "304",
+        "Max CP Cap": "449",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/9/94/13.jpg/100px-13.jpg"
+    },
+    {
+        "Name": "Kakuna",
+        "#": 14,
+        "HP Ratio": 90,
+        "Attack Ratio": 62,
+        "Defense Ratio": 82,
+        "Min CP Cap": "333",
+        "Max CP Cap": "485",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/e/ed/14.jpg/100px-14.jpg"
+    },
+    {
+        "Name": "Beedrill",
+        "#": 15,
+        "HP Ratio": 130,
+        "Attack Ratio": 144,
+        "Defense Ratio": 130,
+        "Min CP Cap": "1169",
+        "Max CP Cap": "1440",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/d/db/15.jpg/100px-15.jpg"
+    },
+    {
+        "Name": "Pidgey",
+        "#": 16,
+        "HP Ratio": 80,
+        "Attack Ratio": 94,
+        "Defense Ratio": 90,
+        "Min CP Cap": "498",
+        "Max CP Cap": "680",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/8/85/16.jpg/100px-16.jpg"
+    },
+    {
+        "Name": "Pidgeotto",
+        "#": 17,
+        "HP Ratio": 126,
+        "Attack Ratio": 126,
+        "Defense Ratio": 122,
+        "Min CP Cap": "976",
+        "Max CP Cap": "1224",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/6/64/17.jpg/100px-17.jpg"
+    },
+    {
+        "Name": "Pidgeot",
+        "#": 18,
+        "HP Ratio": 166,
+        "Attack Ratio": 170,
+        "Defense Ratio": 166,
+        "Min CP Cap": "1763",
+        "Max CP Cap": "2091",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/a/a2/18.jpg/100px-18.jpg"
+    },
+    {
+        "Name": "Rattata",
+        "#": 19,
+        "HP Ratio": 60,
+        "Attack Ratio": 92,
+        "Defense Ratio": 86,
+        "Min CP Cap": "413",
+        "Max CP Cap": "582",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/e/e8/19.jpg/100px-19.jpg"
+    },
+    {
+        "Name": "Raticate",
+        "#": 20,
+        "HP Ratio": 110,
+        "Attack Ratio": 146,
+        "Defense Ratio": 150,
+        "Min CP Cap": "1171",
+        "Max CP Cap": "1444",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/c/ca/20.jpg/100px-20.jpg"
+    },
+    {
+        "Name": "Spearow",
+        "#": 21,
+        "HP Ratio": 80,
+        "Attack Ratio": 102,
+        "Defense Ratio": 78,
+        "Min CP Cap": "503",
+        "Max CP Cap": "687",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/0/03/21.jpg/100px-21.jpg"
+    },
+    {
+        "Name": "Fearow",
+        "#": 22,
+        "HP Ratio": 130,
+        "Attack Ratio": 168,
+        "Defense Ratio": 146,
+        "Min CP Cap": "1446",
+        "Max CP Cap": "1746",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/1/13/22.jpg/100px-22.jpg"
+    },
+    {
+        "Name": "Ekans",
+        "#": 23,
+        "HP Ratio": 70,
+        "Attack Ratio": 112,
+        "Defense Ratio": 112,
+        "Min CP Cap": "619",
+        "Max CP Cap": "824",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/6/64/23.jpg/100px-23.jpg"
+    },
+    {
+        "Name": "Arbok",
+        "#": 24,
+        "HP Ratio": 120,
+        "Attack Ratio": 166,
+        "Defense Ratio": 166,
+        "Min CP Cap": "1463",
+        "Max CP Cap": "1767",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/a/ad/24.jpg/100px-24.jpg"
+    },
+    {
+        "Name": "Pikachu",
+        "#": 25,
+        "HP Ratio": 70,
+        "Attack Ratio": 124,
+        "Defense Ratio": 108,
+        "Min CP Cap": "673",
+        "Max CP Cap": "888",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/c/cf/25.jpg/100px-25.jpg"
+    },
+    {
+        "Name": "Raichu",
+        "#": 26,
+        "HP Ratio": 120,
+        "Attack Ratio": 200,
+        "Defense Ratio": 154,
+        "Min CP Cap": "1698",
+        "Max CP Cap": "2028",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/e/eb/26.jpg/100px-26.jpg"
+    },
+    {
+        "Name": "Sandshrew",
+        "#": 27,
+        "HP Ratio": 100,
+        "Attack Ratio": 90,
+        "Defense Ratio": 114,
+        "Min CP Cap": "600",
+        "Max CP Cap": "799",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/e/e0/27.jpg/100px-27.jpg"
+    },
+    {
+        "Name": "Sandslash",
+        "#": 28,
+        "HP Ratio": 150,
+        "Attack Ratio": 150,
+        "Defense Ratio": 172,
+        "Min CP Cap": "1505",
+        "Max CP Cap": "1810",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/1/12/28.jpg/100px-28.jpg"
+    },
+    {
+        "Name": "Nidoran F",
+        "#": 29,
+        "HP Ratio": 110,
+        "Attack Ratio": 100,
+        "Defense Ratio": 104,
+        "Min CP Cap": "668",
+        "Max CP Cap": "876",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/e/e2/29.jpg/100px-29.jpg"
+    },
+    {
+        "Name": "Nidorina",
+        "#": 30,
+        "HP Ratio": 140,
+        "Attack Ratio": 132,
+        "Defense Ratio": 136,
+        "Min CP Cap": "1138",
+        "Max CP Cap": "1405",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/e/e3/30.jpg/100px-30.jpg"
+    },
+    {
+        "Name": "Nidoqueen",
+        "#": 31,
+        "HP Ratio": 180,
+        "Attack Ratio": 184,
+        "Defense Ratio": 190,
+        "Min CP Cap": "2125",
+        "Max CP Cap": "2485",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/f/f0/31.jpg/100px-31.jpg"
+    },
+    {
+        "Name": "Nidoran M",
+        "#": 32,
+        "HP Ratio": 92,
+        "Attack Ratio": 110,
+        "Defense Ratio": 94,
+        "Min CP Cap": "639",
+        "Max CP Cap": "843",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/8/85/32.jpg/100px-32.jpg"
+    },
+    {
+        "Name": "Nidorino",
+        "#": 33,
+        "HP Ratio": 122,
+        "Attack Ratio": 142,
+        "Defense Ratio": 128,
+        "Min CP Cap": "1108",
+        "Max CP Cap": "1372",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/d/da/33.jpg/100px-33.jpg"
+    },
+    {
+        "Name": "Nidoking",
+        "#": 34,
+        "HP Ratio": 162,
+        "Attack Ratio": 204,
+        "Defense Ratio": 170,
+        "Min CP Cap": "2114",
+        "Max CP Cap": "2475",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/f/fe/34.jpg/100px-34.jpg"
+    },
+    {
+        "Name": "Clefairy",
+        "#": 35,
+        "HP Ratio": 140,
+        "Attack Ratio": 116,
+        "Defense Ratio": 124,
+        "Min CP Cap": "955",
+        "Max CP Cap": "1201",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/b/b2/35.jpg/100px-35.jpg"
+    },
+    {
+        "Name": "Clefable",
+        "#": 36,
+        "HP Ratio": 190,
+        "Attack Ratio": 178,
+        "Defense Ratio": 178,
+        "Min CP Cap": "2045",
+        "Max CP Cap": "2398",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/1/1f/36.jpg/100px-36.jpg"
+    },
+    {
+        "Name": "Vulpix",
+        "#": 37,
+        "HP Ratio": 76,
+        "Attack Ratio": 106,
+        "Defense Ratio": 118,
+        "Min CP Cap": "627",
+        "Max CP Cap": "831",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/9/9b/37.jpg/100px-37.jpg"
+    },
+    {
+        "Name": "Ninetales",
+        "#": 38,
+        "HP Ratio": 146,
+        "Attack Ratio": 176,
+        "Defense Ratio": 194,
+        "Min CP Cap": "1850",
+        "Max CP Cap": "2188",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/9/93/38.jpg/100px-38.jpg"
+    },
+    {
+        "Name": "Jigglypuff",
+        "#": 39,
+        "HP Ratio": 230,
+        "Attack Ratio": 98,
+        "Defense Ratio": 54,
+        "Min CP Cap": "682",
+        "Max CP Cap": "918",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/c/cd/39.jpg/100px-39.jpg"
+    },
+    {
+        "Name": "Wigglytuff",
+        "#": 40,
+        "HP Ratio": 280,
+        "Attack Ratio": 168,
+        "Defense Ratio": 108,
+        "Min CP Cap": "1825",
+        "Max CP Cap": "2177",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/c/c7/40.jpg/100px-40.jpg"
+    },
+    {
+        "Name": "Zubat",
+        "#": 41,
+        "HP Ratio": 80,
+        "Attack Ratio": 88,
+        "Defense Ratio": 90,
+        "Min CP Cap": "466",
+        "Max CP Cap": "643",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/f/fd/41.jpg/100px-41.jpg"
+    },
+    {
+        "Name": "Golbat",
+        "#": 42,
+        "HP Ratio": 150,
+        "Attack Ratio": 164,
+        "Defense Ratio": 164,
+        "Min CP Cap": "1607",
+        "Max CP Cap": "1921",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/c/cf/42.jpg/100px-42.jpg"
+    },
+    {
+        "Name": "Oddish",
+        "#": 43,
+        "HP Ratio": 90,
+        "Attack Ratio": 134,
+        "Defense Ratio": 130,
+        "Min CP Cap": "905",
+        "Max CP Cap": "1148",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/4/4f/43.jpg/100px-43.jpg"
+    },
+    {
+        "Name": "Gloom",
+        "#": 44,
+        "HP Ratio": 120,
+        "Attack Ratio": 162,
+        "Defense Ratio": 158,
+        "Min CP Cap": "1393",
+        "Max CP Cap": "1689",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/9/98/44.jpg/100px-44.jpg"
+    },
+    {
+        "Name": "Vileplume",
+        "#": 45,
+        "HP Ratio": 150,
+        "Attack Ratio": 202,
+        "Defense Ratio": 190,
+        "Min CP Cap": "2130",
+        "Max CP Cap": "2493",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/3/32/45.jpg/100px-45.jpg"
+    },
+    {
+        "Name": "Paras",
+        "#": 46,
+        "HP Ratio": 70,
+        "Attack Ratio": 122,
+        "Defense Ratio": 120,
+        "Min CP Cap": "698",
+        "Max CP Cap": "917",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/5/55/46.jpg/100px-46.jpg"
+    },
+    {
+        "Name": "Parasect",
+        "#": 47,
+        "HP Ratio": 120,
+        "Attack Ratio": 162,
+        "Defense Ratio": 170,
+        "Min CP Cap": "1445",
+        "Max CP Cap": "1747",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/2/21/47.jpg/100px-47.jpg"
+    },
+    {
+        "Name": "Venonat",
+        "#": 48,
+        "HP Ratio": 120,
+        "Attack Ratio": 108,
+        "Defense Ratio": 118,
+        "Min CP Cap": "803",
+        "Max CP Cap": "1029",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/3/3f/48.jpg/100px-48.jpg"
+    },
+    {
+        "Name": "Venomoth",
+        "#": 49,
+        "HP Ratio": 140,
+        "Attack Ratio": 172,
+        "Defense Ratio": 154,
+        "Min CP Cap": "1577",
+        "Max CP Cap": "1890",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/c/cf/49.jpg/100px-49.jpg"
+    },
+    {
+        "Name": "Diglett",
+        "#": 50,
+        "HP Ratio": 20,
+        "Attack Ratio": 108,
+        "Defense Ratio": 86,
+        "Min CP Cap": "280",
+        "Max CP Cap": "457",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/6/61/50.jpg/100px-50.jpg"
+    },
+    {
+        "Name": "Dugtrio",
+        "#": 51,
+        "HP Ratio": 70,
+        "Attack Ratio": 148,
+        "Defense Ratio": 140,
+        "Min CP Cap": "915",
+        "Max CP Cap": "1169",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/3/35/51.jpg/100px-51.jpg"
+    },
+    {
+        "Name": "Meowth",
+        "#": 52,
+        "HP Ratio": 80,
+        "Attack Ratio": 104,
+        "Defense Ratio": 94,
+        "Min CP Cap": "563",
+        "Max CP Cap": "756",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/b/ba/52.jpg/100px-52.jpg"
+    },
+    {
+        "Name": "Persian",
+        "#": 53,
+        "HP Ratio": 130,
+        "Attack Ratio": 156,
+        "Defense Ratio": 146,
+        "Min CP Cap": "1342",
+        "Max CP Cap": "1632",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/5/5f/53.jpg/100px-53.jpg"
+    },
+    {
+        "Name": "Psyduck",
+        "#": 54,
+        "HP Ratio": 100,
+        "Attack Ratio": 132,
+        "Defense Ratio": 112,
+        "Min CP Cap": "873",
+        "Max CP Cap": "1110",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/d/db/54.jpg/100px-54.jpg"
+    },
+    {
+        "Name": "Golduck",
+        "#": 55,
+        "HP Ratio": 160,
+        "Attack Ratio": 194,
+        "Defense Ratio": 176,
+        "Min CP Cap": "2033",
+        "Max CP Cap": "2387",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/8/86/55.jpg/100px-55.jpg"
+    },
+    {
+        "Name": "Mankey",
+        "#": 56,
+        "HP Ratio": 80,
+        "Attack Ratio": 122,
+        "Defense Ratio": 96,
+        "Min CP Cap": "668",
+        "Max CP Cap": "879",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/2/2f/56.jpg/100px-56.jpg"
+    },
+    {
+        "Name": "Primeape",
+        "#": 57,
+        "HP Ratio": 130,
+        "Attack Ratio": 178,
+        "Defense Ratio": 150,
+        "Min CP Cap": "1552",
+        "Max CP Cap": "1865",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/4/4e/57.jpg/100px-57.jpg"
+    },
+    {
+        "Name": "Growlithe",
+        "#": 58,
+        "HP Ratio": 110,
+        "Attack Ratio": 156,
+        "Defense Ratio": 110,
+        "Min CP Cap": "1072",
+        "Max CP Cap": "1335",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/9/94/58.jpg/100px-58.jpg"
+    },
+    {
+        "Name": "Arcanine",
+        "#": 59,
+        "HP Ratio": 180,
+        "Attack Ratio": 230,
+        "Defense Ratio": 180,
+        "Min CP Cap": "2586",
+        "Max CP Cap": "2984",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/7/79/59.jpg/100px-59.jpg"
+    },
+    {
+        "Name": "Poliwag",
+        "#": 60,
+        "HP Ratio": 80,
+        "Attack Ratio": 108,
+        "Defense Ratio": 98,
+        "Min CP Cap": "597",
+        "Max CP Cap": "796",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/5/5a/60.jpg/100px-60.jpg"
+    },
+    {
+        "Name": "Poliwhirl",
+        "#": 61,
+        "HP Ratio": 130,
+        "Attack Ratio": 132,
+        "Defense Ratio": 132,
+        "Min CP Cap": "1080",
+        "Max CP Cap": "1340",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/d/d3/61.jpg/100px-61.jpg"
+    },
+    {
+        "Name": "Poliwrath",
+        "#": 62,
+        "HP Ratio": 180,
+        "Attack Ratio": 180,
+        "Defense Ratio": 202,
+        "Min CP Cap": "2144",
+        "Max CP Cap": "2505",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/b/b2/62.jpg/100px-62.jpg"
+    },
+    {
+        "Name": "Abra",
+        "#": 63,
+        "HP Ratio": 50,
+        "Attack Ratio": 110,
+        "Defense Ratio": 76,
+        "Min CP Cap": "424",
+        "Max CP Cap": "600",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/4/4a/63.jpg/100px-63.jpg"
+    },
+    {
+        "Name": "Kadabra",
+        "#": 64,
+        "HP Ratio": 80,
+        "Attack Ratio": 150,
+        "Defense Ratio": 112,
+        "Min CP Cap": "887",
+        "Max CP Cap": "1132",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/e/ea/64.jpg/100px-64.jpg"
+    },
+    {
+        "Name": "Alakazam",
+        "#": 65,
+        "HP Ratio": 110,
+        "Attack Ratio": 186,
+        "Defense Ratio": 152,
+        "Min CP Cap": "1502",
+        "Max CP Cap": "1814",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/3/39/65.jpg/100px-65.jpg"
+    },
+    {
+        "Name": "Machop",
+        "#": 66,
+        "HP Ratio": 140,
+        "Attack Ratio": 118,
+        "Defense Ratio": 96,
+        "Min CP Cap": "854",
+        "Max CP Cap": "1090",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/2/28/66.jpg/100px-66.jpg"
+    },
+    {
+        "Name": "Machoke",
+        "#": 67,
+        "HP Ratio": 160,
+        "Attack Ratio": 154,
+        "Defense Ratio": 144,
+        "Min CP Cap": "1460",
+        "Max CP Cap": "1761",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/a/af/67.jpg/100px-67.jpg"
+    },
+    {
+        "Name": "Machamp",
+        "#": 68,
+        "HP Ratio": 180,
+        "Attack Ratio": 198,
+        "Defense Ratio": 180,
+        "Min CP Cap": "2226",
+        "Max CP Cap": "2594",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/5/59/68.jpg/100px-68.jpg"
+    },
+    {
+        "Name": "Bellsprout",
+        "#": 69,
+        "HP Ratio": 100,
+        "Attack Ratio": 158,
+        "Defense Ratio": 78,
+        "Min CP Cap": "872",
+        "Max CP Cap": "1117",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/5/5f/69.jpg/100px-69.jpg"
+    },
+    {
+        "Name": "Weepinbell",
+        "#": 70,
+        "HP Ratio": 130,
+        "Attack Ratio": 190,
+        "Defense Ratio": 110,
+        "Min CP Cap": "1419",
+        "Max CP Cap": "1724",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/6/6e/70.jpg/100px-70.jpg"
+    },
+    {
+        "Name": "Victreebel",
+        "#": 71,
+        "HP Ratio": 160,
+        "Attack Ratio": 222,
+        "Defense Ratio": 152,
+        "Min CP Cap": "2162",
+        "Max CP Cap": "2531",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/5/59/71.jpg/100px-71.jpg"
+    },
+    {
+        "Name": "Tentacool",
+        "#": 72,
+        "HP Ratio": 80,
+        "Attack Ratio": 106,
+        "Defense Ratio": 136,
+        "Min CP Cap": "691",
+        "Max CP Cap": "905",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/e/e1/72.jpg/100px-72.jpg"
+    },
+    {
+        "Name": "Tentacruel",
+        "#": 73,
+        "HP Ratio": 160,
+        "Attack Ratio": 170,
+        "Defense Ratio": 196,
+        "Min CP Cap": "1880",
+        "Max CP Cap": "2220",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/6/6f/73.jpg/100px-73.jpg"
+    },
+    {
+        "Name": "Geodude",
+        "#": 74,
+        "HP Ratio": 80,
+        "Attack Ratio": 106,
+        "Defense Ratio": 118,
+        "Min CP Cap": "643",
+        "Max CP Cap": "849",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/d/d3/74.jpg/100px-74.jpg"
+    },
+    {
+        "Name": "Graveler",
+        "#": 75,
+        "HP Ratio": 110,
+        "Attack Ratio": 142,
+        "Defense Ratio": 156,
+        "Min CP Cap": "1162",
+        "Max CP Cap": "1434",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/8/88/75.jpg/100px-75.jpg"
+    },
+    {
+        "Name": "Golem",
+        "#": 76,
+        "HP Ratio": 160,
+        "Attack Ratio": 176,
+        "Defense Ratio": 198,
+        "Min CP Cap": "1957",
+        "Max CP Cap": "2303",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/7/73/76.jpg/100px-76.jpg"
+    },
+    {
+        "Name": "Ponyta",
+        "#": 77,
+        "HP Ratio": 100,
+        "Attack Ratio": 168,
+        "Defense Ratio": 138,
+        "Min CP Cap": "1233",
+        "Max CP Cap": "1516",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/b/b8/77.jpg/100px-77.jpg"
+    },
+    {
+        "Name": "Rapidash",
+        "#": 78,
+        "HP Ratio": 130,
+        "Attack Ratio": 200,
+        "Defense Ratio": 170,
+        "Min CP Cap": "1857",
+        "Max CP Cap": "2199",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/c/ca/78.jpg/100px-78.jpg"
+    },
+    {
+        "Name": "Slowpoke",
+        "#": 79,
+        "HP Ratio": 180,
+        "Attack Ratio": 110,
+        "Defense Ratio": 110,
+        "Min CP Cap": "967",
+        "Max CP Cap": "1219",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/3/3d/79.jpg/100px-79.jpg"
+    },
+    {
+        "Name": "Slowbro",
+        "#": 80,
+        "HP Ratio": 190,
+        "Attack Ratio": 184,
+        "Defense Ratio": 198,
+        "Min CP Cap": "2229",
+        "Max CP Cap": "2597",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/d/d1/80.jpg/100px-80.jpg"
+    },
+    {
+        "Name": "Magnemite",
+        "#": 81,
+        "HP Ratio": 50,
+        "Attack Ratio": 128,
+        "Defense Ratio": 138,
+        "Min CP Cap": "664",
+        "Max CP Cap": "891",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/f/f8/81.jpg/100px-81.jpg"
+    },
+    {
+        "Name": "Magneton",
+        "#": 82,
+        "HP Ratio": 100,
+        "Attack Ratio": 186,
+        "Defense Ratio": 180,
+        "Min CP Cap": "1559",
+        "Max CP Cap": "1880",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/a/ac/82.jpg/100px-82.jpg"
+    },
+    {
+        "Name": "Farfetch'd",
+        "#": 83,
+        "HP Ratio": 104,
+        "Attack Ratio": 138,
+        "Defense Ratio": 132,
+        "Min CP Cap": "1010",
+        "Max CP Cap": "1264",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/8/86/83.jpg/100px-83.jpg"
+    },
+    {
+        "Name": "Doduo",
+        "#": 84,
+        "HP Ratio": 70,
+        "Attack Ratio": 126,
+        "Defense Ratio": 96,
+        "Min CP Cap": "645",
+        "Max CP Cap": "855",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/3/35/84.jpg/100px-84.jpg"
+    },
+    {
+        "Name": "Dodrio",
+        "#": 85,
+        "HP Ratio": 120,
+        "Attack Ratio": 182,
+        "Defense Ratio": 150,
+        "Min CP Cap": "1525",
+        "Max CP Cap": "1836",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/5/57/85.jpg/100px-85.jpg"
+    },
+    {
+        "Name": "Seel",
+        "#": 86,
+        "HP Ratio": 130,
+        "Attack Ratio": 104,
+        "Defense Ratio": 138,
+        "Min CP Cap": "870",
+        "Max CP Cap": "1107",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/c/c7/86.jpg/100px-86.jpg"
+    },
+    {
+        "Name": "Dewgong",
+        "#": 87,
+        "HP Ratio": 180,
+        "Attack Ratio": 156,
+        "Defense Ratio": 192,
+        "Min CP Cap": "1811",
+        "Max CP Cap": "2146",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/c/c2/87.jpg/100px-87.jpg"
+    },
+    {
+        "Name": "Grimer",
+        "#": 88,
+        "HP Ratio": 160,
+        "Attack Ratio": 124,
+        "Defense Ratio": 110,
+        "Min CP Cap": "1027",
+        "Max CP Cap": "1284",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/2/28/88.jpg/100px-88.jpg"
+    },
+    {
+        "Name": "Muk",
+        "#": 89,
+        "HP Ratio": 210,
+        "Attack Ratio": 180,
+        "Defense Ratio": 188,
+        "Min CP Cap": "2234",
+        "Max CP Cap": "2603",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/2/22/89.jpg/100px-89.jpg"
+    },
+    {
+        "Name": "Shellder",
+        "#": 90,
+        "HP Ratio": 60,
+        "Attack Ratio": 120,
+        "Defense Ratio": 112,
+        "Min CP Cap": "614",
+        "Max CP Cap": "823",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/3/3f/90.jpg/100px-90.jpg"
+    },
+    {
+        "Name": "Cloyster",
+        "#": 91,
+        "HP Ratio": 100,
+        "Attack Ratio": 196,
+        "Defense Ratio": 196,
+        "Min CP Cap": "1714",
+        "Max CP Cap": "2053",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/5/56/91.jpg/100px-91.jpg"
+    },
+    {
+        "Name": "Gastly",
+        "#": 92,
+        "HP Ratio": 60,
+        "Attack Ratio": 136,
+        "Defense Ratio": 82,
+        "Min CP Cap": "596",
+        "Max CP Cap": "804",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/5/57/92.jpg/100px-92.jpg"
+    },
+    {
+        "Name": "Haunter",
+        "#": 93,
+        "HP Ratio": 90,
+        "Attack Ratio": 172,
+        "Defense Ratio": 118,
+        "Min CP Cap": "1107",
+        "Max CP Cap": "1380",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/8/89/93.jpg/100px-93.jpg"
+    },
+    {
+        "Name": "Gengar",
+        "#": 94,
+        "HP Ratio": 120,
+        "Attack Ratio": 204,
+        "Defense Ratio": 156,
+        "Min CP Cap": "1743",
+        "Max CP Cap": "2078",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/0/09/94.jpg/100px-94.jpg"
+    },
+    {
+        "Name": "Onix",
+        "#": 95,
+        "HP Ratio": 70,
+        "Attack Ratio": 90,
+        "Defense Ratio": 186,
+        "Min CP Cap": "641",
+        "Max CP Cap": "857",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/7/7c/95.jpg/100px-95.jpg"
+    },
+    {
+        "Name": "Drowzee",
+        "#": 96,
+        "HP Ratio": 120,
+        "Attack Ratio": 104,
+        "Defense Ratio": 140,
+        "Min CP Cap": "842",
+        "Max CP Cap": "1075",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/4/45/96.jpg/100px-96.jpg"
+    },
+    {
+        "Name": "Hypno",
+        "#": 97,
+        "HP Ratio": 170,
+        "Attack Ratio": 162,
+        "Defense Ratio": 196,
+        "Min CP Cap": "1847",
+        "Max CP Cap": "2184",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/c/c3/97.jpg/100px-97.jpg"
+    },
+    {
+        "Name": "Krabby",
+        "#": 98,
+        "HP Ratio": 60,
+        "Attack Ratio": 116,
+        "Defense Ratio": 110,
+        "Min CP Cap": "589",
+        "Max CP Cap": "792",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/1/15/98.jpg/100px-98.jpg"
+    },
+    {
+        "Name": "Kingler",
+        "#": 99,
+        "HP Ratio": 110,
+        "Attack Ratio": 178,
+        "Defense Ratio": 168,
+        "Min CP Cap": "1511",
+        "Max CP Cap": "1823",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/4/46/99.jpg/100px-99.jpg"
+    },
+    {
+        "Name": "Voltorb",
+        "#": 100,
+        "HP Ratio": 80,
+        "Attack Ratio": 102,
+        "Defense Ratio": 124,
+        "Min CP Cap": "635",
+        "Max CP Cap": "840",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/1/1a/100.jpg/100px-100.jpg"
+    },
+    {
+        "Name": "Electrode",
+        "#": 101,
+        "HP Ratio": 120,
+        "Attack Ratio": 150,
+        "Defense Ratio": 174,
+        "Min CP Cap": "1354",
+        "Max CP Cap": "1646",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/1/10/101.jpg/100px-101.jpg"
+    },
+    {
+        "Name": "Exeggcute",
+        "#": 102,
+        "HP Ratio": 120,
+        "Attack Ratio": 110,
+        "Defense Ratio": 132,
+        "Min CP Cap": "865",
+        "Max CP Cap": "1100",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/f/fd/102.jpg/100px-102.jpg"
+    },
+    {
+        "Name": "Exeggutor",
+        "#": 103,
+        "HP Ratio": 190,
+        "Attack Ratio": 232,
+        "Defense Ratio": 164,
+        "Min CP Cap": "2558",
+        "Max CP Cap": "2955",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/4/4e/103.jpg/100px-103.jpg"
+    },
+    {
+        "Name": "Cubone",
+        "#": 104,
+        "HP Ratio": 100,
+        "Attack Ratio": 102,
+        "Defense Ratio": 150,
+        "Min CP Cap": "780",
+        "Max CP Cap": "1007",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/d/d9/104.jpg/100px-104.jpg"
+    },
+    {
+        "Name": "Marowak",
+        "#": 105,
+        "HP Ratio": 120,
+        "Attack Ratio": 140,
+        "Defense Ratio": 202,
+        "Min CP Cap": "1361",
+        "Max CP Cap": "1657",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/f/f8/105.jpg/100px-105.jpg"
+    },
+    {
+        "Name": "Hitmonlee",
+        "#": 106,
+        "HP Ratio": 100,
+        "Attack Ratio": 148,
+        "Defense Ratio": 172,
+        "Min CP Cap": "1212",
+        "Max CP Cap": "1493",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/7/72/106.jpg/100px-106.jpg"
+    },
+    {
+        "Name": "Hitmonchan",
+        "#": 107,
+        "HP Ratio": 100,
+        "Attack Ratio": 138,
+        "Defense Ratio": 204,
+        "Min CP Cap": "1231",
+        "Max CP Cap": "1517",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/2/23/107.jpg/100px-107.jpg"
+    },
+    {
+        "Name": "Lickitung",
+        "#": 108,
+        "HP Ratio": 180,
+        "Attack Ratio": 126,
+        "Defense Ratio": 160,
+        "Min CP Cap": "1336",
+        "Max CP Cap": "1627",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/e/e4/108.jpg/100px-108.jpg"
+    },
+    {
+        "Name": "Koffing",
+        "#": 109,
+        "HP Ratio": 80,
+        "Attack Ratio": 136,
+        "Defense Ratio": 142,
+        "Min CP Cap": "905",
+        "Max CP Cap": "1152",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/5/5e/109.jpg/100px-109.jpg"
+    },
+    {
+        "Name": "Weezing",
+        "#": 110,
+        "HP Ratio": 130,
+        "Attack Ratio": 190,
+        "Defense Ratio": 198,
+        "Min CP Cap": "1904",
+        "Max CP Cap": "2250",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/7/7c/110.jpg/100px-110.jpg"
+    },
+    {
+        "Name": "Rhyhorn",
+        "#": 111,
+        "HP Ratio": 160,
+        "Attack Ratio": 110,
+        "Defense Ratio": 116,
+        "Min CP Cap": "936",
+        "Max CP Cap": "1182",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/1/11/111.jpg/100px-111.jpg"
+    },
+    {
+        "Name": "Rhydon",
+        "#": 112,
+        "HP Ratio": 210,
+        "Attack Ratio": 166,
+        "Defense Ratio": 160,
+        "Min CP Cap": "1900",
+        "Max CP Cap": "2243",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/4/4e/112.jpg/100px-112.jpg"
+    },
+    {
+        "Name": "Chansey",
+        "#": 113,
+        "HP Ratio": 500,
+        "Attack Ratio": 40,
+        "Defense Ratio": 60,
+        "Min CP Cap": "433",
+        "Max CP Cap": "675",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/8/83/113.jpg/100px-113.jpg"
+    },
+    {
+        "Name": "Tangela",
+        "#": 114,
+        "HP Ratio": 130,
+        "Attack Ratio": 164,
+        "Defense Ratio": 152,
+        "Min CP Cap": "1440",
+        "Max CP Cap": "1740",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/c/c0/114.jpg/100px-114.jpg"
+    },
+    {
+        "Name": "Kangaskhan",
+        "#": 115,
+        "HP Ratio": 210,
+        "Attack Ratio": 142,
+        "Defense Ratio": 178,
+        "Min CP Cap": "1715",
+        "Max CP Cap": "2043",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/d/d5/115.jpg/100px-115.jpg"
+    },
+    {
+        "Name": "Horsea",
+        "#": 116,
+        "HP Ratio": 60,
+        "Attack Ratio": 122,
+        "Defense Ratio": 100,
+        "Min CP Cap": "590",
+        "Max CP Cap": "795",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/5/56/116.jpg/100px-116.jpg"
+    },
+    {
+        "Name": "Seadra",
+        "#": 117,
+        "HP Ratio": 110,
+        "Attack Ratio": 176,
+        "Defense Ratio": 150,
+        "Min CP Cap": "1412",
+        "Max CP Cap": "1713",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/7/7d/117.jpg/100px-117.jpg"
+    },
+    {
+        "Name": "Goldeen",
+        "#": 118,
+        "HP Ratio": 90,
+        "Attack Ratio": 112,
+        "Defense Ratio": 126,
+        "Min CP Cap": "745",
+        "Max CP Cap": "965",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/2/24/118.jpg/100px-118.jpg"
+    },
+    {
+        "Name": "Seaking",
+        "#": 119,
+        "HP Ratio": 160,
+        "Attack Ratio": 172,
+        "Defense Ratio": 160,
+        "Min CP Cap": "1719",
+        "Max CP Cap": "2044",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/a/a9/119.jpg/100px-119.jpg"
+    },
+    {
+        "Name": "Staryu",
+        "#": 120,
+        "HP Ratio": 60,
+        "Attack Ratio": 130,
+        "Defense Ratio": 128,
+        "Min CP Cap": "712",
+        "Max CP Cap": "938",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/7/76/120.jpg/100px-120.jpg"
+    },
+    {
+        "Name": "Starmie",
+        "#": 121,
+        "HP Ratio": 120,
+        "Attack Ratio": 194,
+        "Defense Ratio": 192,
+        "Min CP Cap": "1839",
+        "Max CP Cap": "2182",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/f/f0/121.jpg/100px-121.jpg"
+    },
+    {
+        "Name": "Mr. Mime",
+        "#": 122,
+        "HP Ratio": 80,
+        "Attack Ratio": 154,
+        "Defense Ratio": 196,
+        "Min CP Cap": "1204",
+        "Max CP Cap": "1494",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/a/af/122.jpg/100px-122.jpg"
+    },
+    {
+        "Name": "Scyther",
+        "#": 123,
+        "HP Ratio": 140,
+        "Attack Ratio": 176,
+        "Defense Ratio": 180,
+        "Min CP Cap": "1745",
+        "Max CP Cap": "2074",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/f/f4/123.jpg/100px-123.jpg"
+    },
+    {
+        "Name": "Jynx",
+        "#": 124,
+        "HP Ratio": 130,
+        "Attack Ratio": 172,
+        "Defense Ratio": 134,
+        "Min CP Cap": "1418",
+        "Max CP Cap": "1717",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/0/02/124.jpg/100px-124.jpg"
+    },
+    {
+        "Name": "Electabuzz",
+        "#": 125,
+        "HP Ratio": 130,
+        "Attack Ratio": 198,
+        "Defense Ratio": 160,
+        "Min CP Cap": "1784",
+        "Max CP Cap": "2119",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/9/98/125.jpg/100px-125.jpg"
+    },
+    {
+        "Name": "Magmar",
+        "#": 126,
+        "HP Ratio": 130,
+        "Attack Ratio": 214,
+        "Defense Ratio": 158,
+        "Min CP Cap": "1916",
+        "Max CP Cap": "2265",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/0/09/126.jpg/100px-126.jpg"
+    },
+    {
+        "Name": "Pinsir",
+        "#": 127,
+        "HP Ratio": 130,
+        "Attack Ratio": 184,
+        "Defense Ratio": 186,
+        "Min CP Cap": "1787",
+        "Max CP Cap": "2122",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/4/49/127.jpg/100px-127.jpg"
+    },
+    {
+        "Name": "Tauros",
+        "#": 128,
+        "HP Ratio": 150,
+        "Attack Ratio": 148,
+        "Defense Ratio": 184,
+        "Min CP Cap": "1536",
+        "Max CP Cap": "1845",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/d/d4/128.jpg/100px-128.jpg"
+    },
+    {
+        "Name": "Magikarp",
+        "#": 129,
+        "HP Ratio": 40,
+        "Attack Ratio": 42,
+        "Defense Ratio": 84,
+        "Min CP Cap": "152",
+        "Max CP Cap": "263",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/3/34/129.jpg/100px-129.jpg"
+    },
+    {
+        "Name": "Gyarados",
+        "#": 130,
+        "HP Ratio": 190,
+        "Attack Ratio": 192,
+        "Defense Ratio": 196,
+        "Min CP Cap": "2314",
+        "Max CP Cap": "2689",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/9/98/130.jpg/100px-130.jpg"
+    },
+    {
+        "Name": "Lapras",
+        "#": 131,
+        "HP Ratio": 260,
+        "Attack Ratio": 186,
+        "Defense Ratio": 190,
+        "Min CP Cap": "2582",
+        "Max CP Cap": "2981",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/5/57/131.jpg/100px-131.jpg"
+    },
+    {
+        "Name": "Ditto",
+        "#": 132,
+        "HP Ratio": 96,
+        "Attack Ratio": 110,
+        "Defense Ratio": 110,
+        "Min CP Cap": "706",
+        "Max CP Cap": "920",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/3/3f/132.jpg/100px-132.jpg"
+    },
+    {
+        "Name": "Eevee",
+        "#": 133,
+        "HP Ratio": 110,
+        "Attack Ratio": 114,
+        "Defense Ratio": 128,
+        "Min CP Cap": "845",
+        "Max CP Cap": "1077",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/f/f5/133.jpg/100px-133.jpg"
+    },
+    {
+        "Name": "Vaporeon",
+        "#": 134,
+        "HP Ratio": 260,
+        "Attack Ratio": 186,
+        "Defense Ratio": 168,
+        "Min CP Cap": "2428",
+        "Max CP Cap": "2816",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/e/e8/134.jpg/100px-134.jpg"
+    },
+    {
+        "Name": "Jolteon",
+        "#": 135,
+        "HP Ratio": 130,
+        "Attack Ratio": 192,
+        "Defense Ratio": 174,
+        "Min CP Cap": "1804",
+        "Max CP Cap": "2140",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/0/0d/135.jpg/100px-135.jpg"
+    },
+    {
+        "Name": "Flareon",
+        "#": 136,
+        "HP Ratio": 130,
+        "Attack Ratio": 238,
+        "Defense Ratio": 178,
+        "Min CP Cap": "2261",
+        "Max CP Cap": "2643",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/7/7f/136.jpg/100px-136.jpg"
+    },
+    {
+        "Name": "Porygon",
+        "#": 137,
+        "HP Ratio": 130,
+        "Attack Ratio": 156,
+        "Defense Ratio": 158,
+        "Min CP Cap": "1396",
+        "Max CP Cap": "1692",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/6/6e/137.jpg/100px-137.jpg"
+    },
+    {
+        "Name": "Omanyte",
+        "#": 138,
+        "HP Ratio": 70,
+        "Attack Ratio": 132,
+        "Defense Ratio": 160,
+        "Min CP Cap": "873",
+        "Max CP Cap": "1120",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/2/20/138.jpg/100px-138.jpg"
+    },
+    {
+        "Name": "Omastar",
+        "#": 139,
+        "HP Ratio": 140,
+        "Attack Ratio": 180,
+        "Defense Ratio": 202,
+        "Min CP Cap": "1891",
+        "Max CP Cap": "2234",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/e/ef/139.jpg/100px-139.jpg"
+    },
+    {
+        "Name": "Kabuto",
+        "#": 140,
+        "HP Ratio": 60,
+        "Attack Ratio": 148,
+        "Defense Ratio": 142,
+        "Min CP Cap": "853",
+        "Max CP Cap": "1105",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/9/90/140.jpg/100px-140.jpg"
+    },
+    {
+        "Name": "Kabutops",
+        "#": 141,
+        "HP Ratio": 120,
+        "Attack Ratio": 190,
+        "Defense Ratio": 190,
+        "Min CP Cap": "1792",
+        "Max CP Cap": "2130",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/3/36/141.jpg/100px-141.jpg"
+    },
+    {
+        "Name": "Aerodactyl",
+        "#": 142,
+        "HP Ratio": 160,
+        "Attack Ratio": 182,
+        "Defense Ratio": 162,
+        "Min CP Cap": "1830",
+        "Max CP Cap": "2165",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/1/1e/142.jpg/100px-142.jpg"
+    },
+    {
+        "Name": "Snorlax",
+        "#": 143,
+        "HP Ratio": 320,
+        "Attack Ratio": 180,
+        "Defense Ratio": 180,
+        "Min CP Cap": "2698",
+        "Max CP Cap": "3113",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/d/d3/143.jpg/100px-143.jpg"
+    },
+    {
+        "Name": "Articuno",
+        "#": 144,
+        "HP Ratio": 180,
+        "Attack Ratio": 198,
+        "Defense Ratio": 242,
+        "Min CP Cap": "2581",
+        "Max CP Cap": "2978",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/1/13/144.jpg/100px-144.jpg"
+    },
+    {
+        "Name": "Zapdos",
+        "#": 145,
+        "HP Ratio": 180,
+        "Attack Ratio": 232,
+        "Defense Ratio": 194,
+        "Min CP Cap": "2708",
+        "Max CP Cap": "3114",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/7/7a/145.jpg/100px-145.jpg"
+    },
+    {
+        "Name": "Moltres",
+        "#": 146,
+        "HP Ratio": 180,
+        "Attack Ratio": 242,
+        "Defense Ratio": 194,
+        "Min CP Cap": "2824",
+        "Max CP Cap": "3240",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/1/11/146.jpg/100px-146.jpg"
+    },
+    {
+        "Name": "Dratini",
+        "#": 147,
+        "HP Ratio": 82,
+        "Attack Ratio": 128,
+        "Defense Ratio": 110,
+        "Min CP Cap": "759",
+        "Max CP Cap": "983",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/4/46/147.jpg/100px-147.jpg"
+    },
+    {
+        "Name": "Dragonair",
+        "#": 148,
+        "HP Ratio": 122,
+        "Attack Ratio": 170,
+        "Defense Ratio": 152,
+        "Min CP Cap": "1446",
+        "Max CP Cap": "1748",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/a/a4/148.jpg/100px-148.jpg"
+    },
+    {
+        "Name": "Dragonite",
+        "#": 149,
+        "HP Ratio": 182,
+        "Attack Ratio": 250,
+        "Defense Ratio": 212,
+        "Min CP Cap": "3067",
+        "Max CP Cap": "3500",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/d/d2/149.jpg/100px-149.jpg"
+    },
+    {
+        "Name": "Mewtwo",
+        "#": 150,
+        "HP Ratio": 212,
+        "Attack Ratio": 284,
+        "Defense Ratio": 202,
+        "Min CP Cap": "3671",
+        "Max CP Cap": "4145",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/f/f5/150.jpg/100px-150.jpg"
+    },
+    {
+        "Name": "Mew",
+        "#": 151,
+        "HP Ratio": 200,
+        "Attack Ratio": 220,
+        "Defense Ratio": 220,
+        "Min CP Cap": "2882",
+        "Max CP Cap": "3299",
+        "urlPicture": "http://oyster.ignimgs.com/mediawiki/apis.ign.com/pokemon-go/thumb/7/75/151.jpg/100px-151.jpg"
+    }
+]
