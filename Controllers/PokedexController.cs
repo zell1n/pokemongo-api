@@ -1,5 +1,6 @@
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
+using pokemongo_api.DataAccess;
 using pokemongo_api.Helpers;
 using pokemongo_api.Models;
 
@@ -11,17 +12,22 @@ namespace pokemongo_api.Controllers
         [HttpGet]
         public IActionResult GetPokedex()
         {
-            return Ok(JsonHelper.ReadJsonFile<Pokedex>("Data/pokemons_api.json"));
+            //return Ok(JsonHelper.ReadJsonFile<Pokedex>("Data/pokemons_api.json"));
+
+            S3DataAccess s3 = new S3DataAccess();
+            var stream = s3.GetS3Object();
+
+            return Ok(stream);
         }
 
-        [HttpGet("{name}")]
-        public IActionResult GetPokedexByName(string name)
-        {
-            var item = JsonHelper.ReadJsonFile<Pokedex>("Data/pokemons_api.json").ToList().FirstOrDefault(x => x.Name.ToLower() == name.ToLower());
-            if (item == null)
-                return NotFound();
+        // [HttpGet("{name}")]
+        // public IActionResult GetPokedexByName(string name)
+        // {
+        //     var item = JsonHelper.ReadJsonFile<Pokedex>("Data/pokemons_api.json").ToList().FirstOrDefault(x => x.Name.ToLower() == name.ToLower());
+        //     if (item == null)
+        //         return NotFound();
             
-            return Ok(item);
-        }
+        //     return Ok(item);
+        // }
     }
 }

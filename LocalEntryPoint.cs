@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 
 namespace pokemongo_api
 {
-    public class Program
+    public class LocalEntryPoint
     {
         public static void Main(string[] args)
         {
