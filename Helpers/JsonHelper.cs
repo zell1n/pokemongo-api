@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using Newtonsoft.Json;
 using pokemongo_api.Models;
 
@@ -48,17 +49,25 @@ namespace pokemongo_api.Helpers
             return listOfPokemonTypes;
         }
 
-        public static IEnumerable<Pokedex> CombineJsonFiles(string pokemonsFile, string pokemonTypesFile)
+        public static IEnumerable<Pokedex> DeserializeStream(MemoryStream memoryStream)
         {
-            var pokemons = ReadJsonFile<Pokedex>(pokemonsFile);
-            var types = ReadJsonFile<PokemonType>(pokemonTypesFile);
+            var jsonString = Encoding.ASCII.GetString(memoryStream.ToArray());
 
-            foreach (var type in types)
-            {
-                var pokemon = pokemons.ToList().FirstOrDefault(x => x.Name == type.PokemonName);
-                pokemon.Types = type.Types;
-            }
-            return pokemons;
+            var items = JsonConvert.DeserializeObject<IEnumerable<Pokedex>>(jsonString);
+            return items;
         }
+
+        // public static IEnumerable<Pokedex> CombineJsonFiles(string pokemonsFile, string pokemonTypesFile)
+        // {
+        //     var pokemons = ReadJsonFile<Pokedex>(pokemonsFile);
+        //     var types = ReadJsonFile<PokemonType>(pokemonTypesFile);
+
+        //     foreach (var type in types)
+        //     {
+        //         var pokemon = pokemons.ToList().FirstOrDefault(x => x.Name == type.PokemonName);
+        //         pokemon.Types = type.Types;
+        //     }
+        //     return pokemons;
+        // }
     }
 }
