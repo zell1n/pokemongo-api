@@ -10,14 +10,18 @@ using Newtonsoft.Json;
 
 namespace pokemongo_api.DataAccess
 {
-    public class S3DataAccess
+    public class S3DataAccess : IS3DataAccess
     {
-        private const string awsKeyId = "dummy";
-        private const string awsSecretKey = "dummy";
+        private readonly IAwsConfiguration _awsConfiguration;
+
+        public S3DataAccess(IAwsConfiguration awsConfiguration)
+        {
+            _awsConfiguration = awsConfiguration;
+        }
 
         public MemoryStream GetS3Object()
         {
-            var client = new AmazonS3Client(awsKeyId, awsSecretKey, Amazon.RegionEndpoint.EUWest1);
+            var client = new AmazonS3Client(Amazon.RegionEndpoint.EUWest1);
             var response = client.GetObjectAsync("pokemongo-api-data", "pokemons_api.json").Result;
 
             var json = response.ResponseStream.ToString();
@@ -29,7 +33,7 @@ namespace pokemongo_api.DataAccess
 
         public void ListBuckets()
         {
-            var client = new AmazonS3Client(awsKeyId, awsSecretKey, Amazon.RegionEndpoint.EUWest1);
+            var client = new AmazonS3Client(Amazon.RegionEndpoint.EUWest1);
 
             var response = new ListBucketsResponse();
             try

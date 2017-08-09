@@ -7,7 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
- 
+using pokemongo_api.DataAccess;
+
 namespace pokemongo_api
 {
     public class Startup
@@ -30,6 +31,13 @@ namespace pokemongo_api
         {
             services.AddMvc();
  
+            services.AddScoped<IS3DataAccess, S3DataAccess>();
+
+            AwsConfiguration awsConfiguration = new AwsConfiguration();
+            Configuration.GetSection("AwsConfiguration").Bind(awsConfiguration);
+            //services.AddSingleton(awsConfiguration);
+            services.AddSingleton<IAwsConfiguration>(awsConfiguration);
+
             // Pull in any SDK configuration from Configuration object
             services.AddDefaultAWSOptions(Configuration.GetAWSOptions());
         }
