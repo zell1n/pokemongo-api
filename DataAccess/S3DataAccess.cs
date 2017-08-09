@@ -12,8 +12,8 @@ namespace pokemongo_api.DataAccess
 {
     public class S3DataAccess
     {
-        private const string awsKeyId = "AKIAJXPBLKO6RKMHJWYQ";
-        private const string awsSecretKey = "VPuZk7lAyzHKM1rS7CpagHGPwV9aj+/I7pM9jRQV";
+        private const string awsKeyId = "dummy";
+        private const string awsSecretKey = "dummy";
 
         public MemoryStream GetS3Object()
         {
@@ -31,7 +31,16 @@ namespace pokemongo_api.DataAccess
         {
             var client = new AmazonS3Client(awsKeyId, awsSecretKey, Amazon.RegionEndpoint.EUWest1);
 
-            var response = client.ListBucketsAsync().Result;
+            var response = new ListBucketsResponse();
+            try
+            {
+                response = client.ListBucketsAsync().Result;
+            }
+            catch (AggregateException e)
+            {
+                Console.WriteLine(e);
+            }
+
             foreach (var bucket in response.Buckets)
             {
                 Console.WriteLine(bucket.BucketName + " " + bucket.CreationDate);
