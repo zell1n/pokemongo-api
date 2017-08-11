@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using pokemongo_api.DataAccess;
 using pokemongo_api.Helpers;
 using pokemongo_api.Models;
+using pokemongo_api.Services;
 
 namespace pokemongo_api.Controllers
 {
@@ -13,29 +14,23 @@ namespace pokemongo_api.Controllers
     [Route("api/[controller]")]
     public class PokedexController : Controller
     {
-        private readonly IS3DataAccess _s3DataAccess;
-        private readonly IAwsConfiguration _awsConfiguration;
+        private readonly IPokedexService _pokedexService;
 
-        public PokedexController(IS3DataAccess s3DataAccess, IAwsConfiguration awsConfiguration)
+        public PokedexController(IPokedexService pokedexService)
         {
-            _s3DataAccess = s3DataAccess;
-            _awsConfiguration = awsConfiguration;
+            _pokedexService = pokedexService;
         }
 
         [HttpGet]
         public IActionResult GetPokedex()
         {
-            var stream = _s3DataAccess.GetS3Object(_awsConfiguration.S3Config.BucketName, _awsConfiguration.S3Config.PokedexFile);
-
-            return Ok(JsonHelper.DeserializeStream<Pokedex>(stream));
+            return Ok(_pokedexService.GetPokedex());
         }
 
         [HttpGet("name/{name}")]
         public IActionResult GetPokedexByName(string name)
         {
-            var stream = _s3DataAccess.GetS3Object(_awsConfiguration.S3Config.BucketName, _awsConfiguration.S3Config.PokedexFile);
-
-            var item = JsonHelper.DeserializeStream<Pokedex>(stream).ToList().FirstOrDefault(x => x.Name.ToLower() == name.ToLower());
+            var item = _pokedexService.GetPokedexByName(name);
 
             if (item == null)
                 return NotFound();
@@ -46,14 +41,18 @@ namespace pokemongo_api.Controllers
         [HttpGet("pokeindex/{id}")]
         public IActionResult GetPokedexByPokeIndex(int id)
         {
-            var stream = _s3DataAccess.GetS3Object(_awsConfiguration.S3Config.BucketName, _awsConfiguration.S3Config.PokedexFile);
-
-            var item = JsonHelper.DeserializeStream<Pokedex>(stream).ToList().FirstOrDefault(x => x.PokeIndex == id);
+            var item = _pokedexService.GetPokedexById(id);
 
             if (item == null)
                 return NotFound();
             
             return Ok(item);
+        }
+
+        [HttpGet("strongAgainst/{id}")]
+        public IActionResult GetTopPokedexStrongAgainst(string id)
+        {
+            return NotFound();
         }
     }
 }

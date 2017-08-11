@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using pokemongo_api.DataAccess;
+using pokemongo_api.Services;
 
 namespace pokemongo_api
 {
@@ -38,8 +39,9 @@ namespace pokemongo_api
                     .AllowAnyHeader();
             }));
 
- 
-            services.AddScoped<IS3DataAccess, S3DataAccess>();
+            services.AddSingleton<IPokedexService, PokedexService>();
+            services.AddSingleton<ITypeDistinctionService, TypeDistinctionService>();
+            services.AddSingleton<IS3DataAccess, S3DataAccess>();
 
             AwsConfiguration awsConfiguration = new AwsConfiguration();
             Configuration.GetSection("AwsConfiguration").Bind(awsConfiguration);

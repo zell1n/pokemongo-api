@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using pokemongo_api.DataAccess;
 using pokemongo_api.Helpers;
 using pokemongo_api.Models;
+using pokemongo_api.Services;
 
 namespace pokemongo_api.Controllers
 {
@@ -13,29 +14,23 @@ namespace pokemongo_api.Controllers
     [Route("api/[controller]")]
     public class TypeDistinctionController : Controller
     {
-        private readonly IS3DataAccess _s3DataAccess;
-        private readonly IAwsConfiguration _awsConfiguration;
+        private readonly ITypeDistinctionService _typeDistinctionService;
 
-        public TypeDistinctionController(IS3DataAccess s3DataAccess, IAwsConfiguration awsConfiguration)
+        public TypeDistinctionController(ITypeDistinctionService typeDistinctionService)
         {
-            _s3DataAccess = s3DataAccess;
-            _awsConfiguration = awsConfiguration;
+            _typeDistinctionService = typeDistinctionService;
         }
 
         [HttpGet]
         public IActionResult GetTypeDistinctions()
         {
-            var stream = _s3DataAccess.GetS3Object(_awsConfiguration.S3Config.BucketName, _awsConfiguration.S3Config.TypeDistinctionFile);
-
-            return Ok(JsonHelper.DeserializeStream<TypeDistinction>(stream));
+            return Ok(_typeDistinctionService.GetTypeDistinctions());
         }
 
         [HttpGet("type/{type}")]
         public IActionResult GetTypeDistinctionByType(string type)
         {
-            var stream = _s3DataAccess.GetS3Object(_awsConfiguration.S3Config.BucketName, _awsConfiguration.S3Config.TypeDistinctionFile);
-
-            var item = JsonHelper.DeserializeStream<TypeDistinction>(stream).ToList().FirstOrDefault(x => x.Type.ToLower() == type.ToLower());
+            var item = _typeDistinctionService.GetTypeDistinctionByType(type);
 
             if (item == null)
                 return NotFound();
