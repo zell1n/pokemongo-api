@@ -21,6 +21,7 @@ namespace pokemongo_api
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true);
  
             builder.AddEnvironmentVariables();
+
             Configuration = builder.Build();
         }
  
@@ -30,12 +31,18 @@ namespace pokemongo_api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddCors(o => o.AddPolicy("CorsPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+            }));
+
  
             services.AddScoped<IS3DataAccess, S3DataAccess>();
 
             AwsConfiguration awsConfiguration = new AwsConfiguration();
             Configuration.GetSection("AwsConfiguration").Bind(awsConfiguration);
-            //services.AddSingleton(awsConfiguration);
             services.AddSingleton<IAwsConfiguration>(awsConfiguration);
 
             // Pull in any SDK configuration from Configuration object

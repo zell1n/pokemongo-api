@@ -4,7 +4,6 @@ namespace pokemongo_api.DataAccess
 {
     public interface IS3DataAccess
     {
-        MemoryStream GetS3Object();
-        
+        MemoryStream GetS3Object(string bucketName, string bucketItem);
     }
 }

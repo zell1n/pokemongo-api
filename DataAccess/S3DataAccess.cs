@@ -19,36 +19,16 @@ namespace pokemongo_api.DataAccess
             _awsConfiguration = awsConfiguration;
         }
 
-        public MemoryStream GetS3Object()
+        public MemoryStream GetS3Object(string bucketName, string bucketItem)
         {
             var client = new AmazonS3Client(Amazon.RegionEndpoint.EUWest1);
-            var response = client.GetObjectAsync("pokemongo-api-data", "pokemons_api.json").Result;
+            var response = client.GetObjectAsync(bucketName, bucketItem).Result;
 
             var json = response.ResponseStream.ToString();
 
             MemoryStream stream = new MemoryStream();
             response.ResponseStream.CopyTo(stream);
             return stream;
-        }
-
-        public void ListBuckets()
-        {
-            var client = new AmazonS3Client(Amazon.RegionEndpoint.EUWest1);
-
-            var response = new ListBucketsResponse();
-            try
-            {
-                response = client.ListBucketsAsync().Result;
-            }
-            catch (AggregateException e)
-            {
-                Console.WriteLine(e);
-            }
-
-            foreach (var bucket in response.Buckets)
-            {
-                Console.WriteLine(bucket.BucketName + " " + bucket.CreationDate);
-            }
         }
     }
 }
