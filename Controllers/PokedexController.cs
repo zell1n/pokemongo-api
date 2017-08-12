@@ -27,6 +27,17 @@ namespace pokemongo_api.Controllers
             return Ok(_pokedexService.GetPokedex());
         }
 
+        [HttpGet("{id}")]
+        public IActionResult GetPokedexByPokeIndex(int id)
+        {
+            var item = _pokedexService.GetPokedexById(id);
+
+            if (item == null)
+                return NotFound();
+            
+            return Ok(item);
+        }
+
         [HttpGet("name/{name}")]
         public IActionResult GetPokedexByName(string name)
         {
@@ -38,21 +49,10 @@ namespace pokemongo_api.Controllers
             return Ok(item);
         }
 
-        [HttpGet("pokeindex/{id}")]
-        public IActionResult GetPokedexByPokeIndex(int id)
-        {
-            var item = _pokedexService.GetPokedexById(id);
-
-            if (item == null)
-                return NotFound();
-            
-            return Ok(item);
-        }
-
         [HttpGet("strongAgainst/{id}")]
-        public IActionResult GetTopPokedexStrongAgainst(string id)
+        public IActionResult GetTopPokedexStrongAgainst(int id)
         {
-            return NotFound();
+            return Ok(_pokedexService.GetTopStrongAgainst(id, 5));
         }
     }
 }

@@ -12,5 +12,22 @@ namespace pokemongo_api.Models
         public double MinCP { get; set; }
         public double MaxCP { get; set; }
         public IEnumerable<string> Types { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            var item = obj as Pokedex;
+
+            if (item == null)
+            {
+                return false;
+            }
+
+            return this.PokeIndex.Equals(item.PokeIndex);
+        }
+
+        public override int GetHashCode()
+        {
+            return this.PokeIndex.GetHashCode();
+        }
     }
 }
